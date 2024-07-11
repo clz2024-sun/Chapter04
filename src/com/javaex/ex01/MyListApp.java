@@ -40,7 +40,7 @@ public class MyListApp {
 			System.out.println(pList.get(i).toString());
 		}
 		
-		/*
+		
 		//원 관리
 		CircleList cList = new CircleList();
 		
@@ -59,7 +59,7 @@ public class MyListApp {
 		for(int i=0; i<cList.size(); i++) {
 			System.out.println(cList.get(i).toString());
 		}
-		*/
+		
 		
 	}
 

@@ -2,7 +2,6 @@ package com.javaex.ex01;
 
 public class PointList {
 
-	
 	//필드
 	private Point[] pArray;
 	private int crtPos;
