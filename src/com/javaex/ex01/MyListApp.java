@@ -22,8 +22,8 @@ public class MyListApp {
 		}
 		*/
 		
+		//점 관리
 		PointList pList = new PointList();
-		
 		
 		Point p01 = new Point(2,2);
 		Point p02 = new Point(3,3);
@@ -36,7 +36,31 @@ public class MyListApp {
 		System.out.println(p.toString());
 		System.out.println(pList.size());
 		
-
+		for(int i=0; i<pList.size(); i++) {
+			System.out.println(pList.get(i).toString());
+		}
+		
+		/*
+		//원 관리
+		CircleList cList = new CircleList();
+		
+		Circle c01 = new Circle(5);
+		Circle c02 = new Circle(10);
+		Circle c03 = new Circle(100);
+		
+		cList.add(c01);
+		cList.add(c02);
+		cList.add(c03);
+		
+		Circle c = cList.get(0);
+		System.out.println(c.toString());
+		System.out.println(cList.size());
+		
+		for(int i=0; i<cList.size(); i++) {
+			System.out.println(cList.get(i).toString());
+		}
+		*/
+		
 	}
 
 }
