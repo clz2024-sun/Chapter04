@@ -50,7 +50,7 @@ public class MyListApp {
 		
 		cList.add(c01);
 		cList.add(c02);
-		cList.add(c03);
+		//cList.add(p01);  //다른 자료형은 못들어온다
 		
 		Circle c = cList.get(0);
 		System.out.println(c.toString());

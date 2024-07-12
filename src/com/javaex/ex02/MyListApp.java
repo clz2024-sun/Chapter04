@@ -26,7 +26,7 @@ public class MyListApp {
 		
 		cList.add(c01);
 		cList.add(c02);
-		cList.add(c03);
+		cList.add(p01);  //다른 자료형도 담을수 있다(단점)
 		
 		Circle c = (Circle)cList.get(0);
 		System.out.println(c.toString());
