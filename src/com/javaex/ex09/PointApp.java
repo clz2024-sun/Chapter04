@@ -33,9 +33,22 @@ public class PointApp {
 		Set<String> keys =  pMap.keySet();
 		
 		for(String key  : keys) {
+			System.out.println(key);
+			
 			System.out.println(pMap.get(key).toString());
 			System.out.println(pMap.get(key).getX());
 		}
+		
+		System.out.println("------------------------------------");
+		
+		Map<String, String> guestbookMap = new HashMap<String, String>();
+		guestbookMap.put("date", "2024-07-12");
+		guestbookMap.put("userName", "정우성");
+		guestbookMap.put("pw", "1234");
+		guestbookMap.put("contents", "왔다갑니다.");
+		
+		System.out.println(guestbookMap.get("userName"));
+		System.out.println(guestbookMap.get("contents"));
 		
 	}
 
